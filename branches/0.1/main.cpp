@@ -30,5 +30,5 @@ int main(int argc, char** argv)
 void fillAboutData(KAboutData& aboutData)
 {
   aboutData.setProgramIconName("tools-wizard");
-  aboutData.addAuthor(ki18n("Bartosz Świątek"), ki18n("Maintainer, Qt4"), "shadzik@pld-linux.org");
+  aboutData.addAuthor(ki18n("Bartosz Świątek"), ki18n("Maintainer, Qt4"), "shadzik@gmail.com");
 }
