@@ -1,0 +1,14 @@
+#!/bin/bash
+
+PATH=/bin:/usr/bin:/sbin:/usr/sbin
+export PATH
+
+if [ "$#" -lt "2" ]; then
+	echo "Usage: $0 <device> <scheme>"
+	exit 1
+fi
+
+device=$1
+scheme=$2
+
+sfdisk -qf -uM "$device" < "$scheme"

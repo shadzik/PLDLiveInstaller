@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pldliveinstaller>
+	<app>	
+		<file name="pldliveinstaller" version="0.2" kdever="4.5" hash="6a82c37ea0a5be5d0a08aa987d540b96"></file>
+		<changelog>
+<![CDATA[
+<html>
+Version 0.2 adresses the following issues:<br>
+Bug fixes:
+<ul>
+<li>costam 1</li>
+<li>costam 2</li>
+</ul>
+<html>
+]]>
+		</changelog>
+	</app>
+	<app>
+		<file name="pldliveinstaller" version="0.3" kdever="4.6" hash="6a82c37ea0a5be5d0a08aa987d540b96"></file>
+		<changelog>
+<![CDATA[
+<html>
+Version 0.3 adresses the following issues:<br>
+Bug fixes:
+<ul>
+<li>costam 3</li>
+<li>costam 4</li>
+</ul>
+<html>
+]]>
+		</changelog>
+	</app>
+</pldliveinstaller>
